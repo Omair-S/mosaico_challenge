@@ -9,10 +9,6 @@ build/
 frames/
 video_frames/
 
-# Dataset (not redistributed, see README)
-*.mcap
-*.db3
-
 # Generated outputs outside results/
 /*.png
 /*.mp4

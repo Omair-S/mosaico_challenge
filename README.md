@@ -48,7 +48,7 @@ A 15 s annotated clip of the front camera around the fall is in [results/spot07_
 ```
 CHALLENGE.md                         challenge brief
 data/sequence_metadata.json          sequence metadata used at ingestion
-data/spot_yb42.mcap                  the ROS 2 bag (not committed, see below)
+data/spot_yb42.mcap                  the ROS 2 bag
 scripts/config.py                    shared constants and paths
 scripts/freefall.py                  the free-fall query, reused by every script
 scripts/01_query_free_fall.py        runs the query and prints the window
@@ -90,7 +90,7 @@ Activate the venv with `source .venv/bin/activate` in every new terminal before 
 
 ### Get the dataset
 
-The recording is not redistributed in this repository. Get `spot_yb42.mcap` (about 13 MB) from the hackathon challenge materials and place it at `data/spot_yb42.mcap`. The metadata file `data/sequence_metadata.json` is already included.
+The recording `data/spot_yb42.mcap` (about 13 MB) and its metadata `data/sequence_metadata.json` are included in the repository, so cloning is enough.
 
 ### Install and start the Mosaico server
 
