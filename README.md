@@ -13,7 +13,7 @@ Something did happen. At **42.000 s** into the bag, `spot-07` was in free fall f
 | Duration | 124 ms |
 | Bag start (UTC, ns) | `1795181820000000000` |
 
-### Submitted query
+### Query
 
 ```python
 Query(
