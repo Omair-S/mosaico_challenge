@@ -1,0 +1,9 @@
+# Python 3.10+
+# System packages (Ubuntu / WSL2): sudo apt install python3-venv ffmpeg python3-tk
+#   ffmpeg      needed by scripts/04_make_video.py
+#   python3-tk  only for interactive plot windows; PNGs are saved without it
+mosaicolabs==0.7.0
+matplotlib==3.11.2
+numpy==2.4.6
+pillow==12.3.0
+pydantic==2.14.3
